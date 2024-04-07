@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="33dp"
+    android:backgroundTint="@color/aquamarine">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2">
+
+        <ImageView
+            android:layout_margin="12dp"
+            android:padding="12dp"
+            android:src="@drawable/cross"
+            android:layout_width="140dp"
+            android:layout_height="140dp"/>
+        <TextView
+            android:layout_margin="12dp"
+            android:id="@+id/x"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:text="0"
+            android:textSize="70sp"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_margin="12dp"
+            android:padding="12dp"
+            android:src="@drawable/ovel"
+            android:layout_width="140dp"
+            android:layout_height="140dp"/>
+        <TextView
+
+            android:layout_margin="12dp"
+            android:id="@+id/o"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:text="0"
+            android:textSize="70sp"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_margin="12dp"
+            android:src="@drawable/peace"
+            android:padding="12dp"
+            android:layout_width="140dp"
+            android:layout_height="140dp"/>
+        <TextView
+            android:layout_margin="12dp"
+            android:id="@+id/draw"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:text="0"
+            android:textSize="70sp"
+            android:gravity="center"/>
+    </GridLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:id="@+id/winnerDialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="22dp"
+    android:backgroundTint="@color/mint"
+    app:cardElevation="44dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="30dp">
+        <TextView
+            android:id="@+id/winnerName"
+            android:textSize="22sp"
+            android:layout_gravity="center|top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Winner is :"/>
+        <Button
+            android:id="@+id/restartButton"
+            android:layout_marginTop="22dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restart Game"
+            android:backgroundTint="@color/emerald"/>
+        </LinearLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>
